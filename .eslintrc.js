@@ -1,12 +1,12 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -34,14 +34,14 @@ module.exports = {
             "error",
             "never"
         ]
-  },
-  "settings": {
-    "react": {
-      "createClass": "createReactClass",
-      "pragma": "React",
-      "version": "15.0",
-      "flowVersion": "0.53"
     },
-    "propWrapperFunctions": ["forbidExtraProps"]
-  }
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "15.0",
+            "flowVersion": "0.53"
+        },
+        "propWrapperFunctions": ["forbidExtraProps"]
+    }
 };
